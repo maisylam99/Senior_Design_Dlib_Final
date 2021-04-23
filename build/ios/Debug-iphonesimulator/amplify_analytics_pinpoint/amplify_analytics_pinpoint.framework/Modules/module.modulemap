@@ -1,0 +1,11 @@
+framework module amplify_analytics_pinpoint {
+  umbrella header "amplify_analytics_pinpoint-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module amplify_analytics_pinpoint.Swift {
+    header "amplify_analytics_pinpoint-Swift.h"
+    requires objc
+}

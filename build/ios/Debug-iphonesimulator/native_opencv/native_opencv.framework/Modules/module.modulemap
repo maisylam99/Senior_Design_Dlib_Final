@@ -1,0 +1,11 @@
+framework module native_opencv {
+  umbrella header "native_opencv-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module native_opencv.Swift {
+    header "native_opencv-Swift.h"
+    requires objc
+}
